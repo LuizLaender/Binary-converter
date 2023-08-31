@@ -1,11 +1,17 @@
-def input_usuario():
-    user_input = input('Digite um numero decimal para ser convertido em binario: ')
-    return user_input
+def decimal_to_binary(decimal_num):
+    binary_result = ""
+    
+    if decimal_num == 0:
+        return "0"
+    
+    while decimal_num > 0:
+        remainder = decimal_num % 2
+        binary_result = str(remainder) + binary_result
+        decimal_num = decimal_num // 2
+    
+    return binary_result
 
-while True:
-    try:
-        val = int(input_usuario())
-        break
-    except ValueError:
-        print('ERRO: você não digitou um numero decimal, tente novamente.')
-
+# Example usage
+decimal_number = int(input("Enter a decimal number: "))
+binary_representation = decimal_to_binary(decimal_number)
+print(f"The binary representation of {decimal_number} is {binary_representation}")
