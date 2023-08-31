@@ -4,7 +4,7 @@ Visual example of 11011 to decimal:
 
 1       1       0       1        1
 1 x 2 = 2
-       +1
+&emsp;   +1
        ___
         3 x 2 = 6
                +0
