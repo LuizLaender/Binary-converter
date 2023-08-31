@@ -1,1 +1,1 @@
-Converting a binary number to a decimal number consists of repeatedly multiplying each digit by 2 and incrementing them to the next digit, repeating this process untill the final result is achieved.
+Converting a binary number to a decimal number consists of repeatedly multiplying each digit by 2 and incrementing the result to the next digit, repeating this process untill the final result is achieved.
